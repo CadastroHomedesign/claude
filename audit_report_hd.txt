@@ -1,0 +1,332 @@
+Loading Focco data...
+Loading mother tables...
+PIU MOBILE products: 1354
+PIURB products: 444
+ITALO products: 198
+
+==============================================================================================================
+AUDIT REPORT - FOCCO vs MOTHER TABLES
+==============================================================================================================
+
+======================================================================
+SECTION 1: ITEMS WITH NO MATCH IN ANY MOTHER TABLE (44 items)
+======================================================================
+  17001: SOFA REGIA 1BR 2ENC  (60 price rules)
+  17003: SOFA REGIA 2BR 2ENC  (36 price rules)
+  17004: SOFA REGIA 2BR 3ENC  (72 price rules)
+  17007: SOFA URBI 1BR  (20 price rules)
+  17008: SOFA URBI 2BR  (36 price rules)
+  17009: SOFA URBI CANTO  (4 price rules)
+  17010: SOFA URBI SBR  (20 price rules)
+  17015: POLTRONA CAATI MESCLA (COURO/TECIDO)  (8 price rules)
+  17016: PUFF CAATI MESCLA (COURO/TECIDO)  (8 price rules)
+  17019: BANCO AREZZO BASE MDF LAMINA  (23 price rules)
+  17022: SOFA LOREDO 1BR  (60 price rules)
+  17023: SOFA LOREDO 2BR  (70 price rules)
+  17026: PUFF ORB  (1 price rules)
+  17027: SOFA ATOLL 1BR  (10 price rules)
+  17028: SOFA ATOLL SB C/ AV  (10 price rules)
+  17038: CAMA AFRODITE (COLCHAO 180X200)  (1 price rules)
+  17042: SOFA ELLUS 1BR  (60 price rules)
+  17043: SOFA ELLUS 2BR  (88 price rules)
+  17050: SOFA CHAPADA 1BR  (1 price rules)
+  17051: SOFA CHAPADA SBR  (1 price rules)
+  17056: SOFA SAMPA 2BR 3ASS  (50 price rules)
+  17060: SOFA SAVONA 2BR  (1 price rules)
+  17061: CAMA KIARA - PINTURA  (70 price rules)
+  17062: CAMA KIARA - LAMINADA  (50 price rules)
+  17063: SOFA ALOFI 1BR AV 2,50  (1 price rules)
+  17065: SOFA SAMPA 1BR 2AS  (4 price rules)
+  17069: SOFA XIQUE XIQUE SB  (70 price rules)
+  17078: POLTRONA HEBE GIRATORIA  (14 price rules)
+  17083: SOFA MARAA 1BR  (21 price rules)
+  17086: SOFA MARAA SBR  (21 price rules)
+  17089: COLISEU CHAISE  (16 price rules)
+  17091: ENCOSTO SOFA MESC 70CM ESPECIAL  (1 price rules)
+  17100: POLTRONA NONNA BASE INOX POLIDO  (3 price rules)
+  17103: SOFA LIBERO GRANDE  (18 price rules)
+  17138: CAMA AFRODITE (COLCHAO 180X200)  (14 price rules)
+  17348: PUFF SELENE MEIO  (13 price rules)
+  17355: CHAISE EROS SB  (26 price rules)
+  17397: CHAISE LAY AV/AP/MESA  (39 price rules)
+  17429: PUFF QUARTIERE C/ALMOFADA  (7 price rules)
+  17431: ACESSORIO VIDRO QUARTIERE  (2 price rules)
+  17455: CANTO BRAVO AP  (15 price rules)
+  17456: CANTO BRAVO AP/AP  (15 price rules)
+  17465: CHAISE DALOA AV  (39 price rules)
+  17467: PUFF DALOA AV  (39 price rules)
+
+======================================================================
+SECTION 2: PRICE DISCREPANCIES (120 rules with |diff| > R$1)
+======================================================================
+  CODE     NAME                                DIM                          GRADE                 FOCCO   MOTHER     DIFF  SOURCE
+  ------------------------------------------------------------------------------------------------------------------------
+  17006    POLTRONA REGIA                      0,70X0,73X0,82               FORNECIDO              5464     5350     +114  PIURB
+  17006    POLTRONA REGIA                      0,70X0,73X0,82               TECIDO_N               6074     5998      +76  PIURB
+  17006    POLTRONA REGIA                      0,70X0,73X0,82               TECIDO_R               6194     6079     +115  PIURB
+  17006    POLTRONA REGIA                      0,70X0,73X0,82               TECIDO_V               6364     6241     +123  PIURB
+  17011    POLTRONA CAATI                      0,87X0,95X0,88               CR FZ                  8393     8663     -270  PIURB
+  17011    POLTRONA CAATI                      0,87X0,95X0,88               CR VQ                  6784     7054     -270  PIURB
+  17011    POLTRONA CAATI                      0,87X0,95X0,88               FX G                   3916     4199     -283  PIURB
+  17011    POLTRONA CAATI                      0,87X0,95X0,88               FX H                   3992     4275     -283  PIURB
+  17011    POLTRONA CAATI                      0,87X0,95X0,88               FX I                   4087     4370     -283  PIURB
+  17011    POLTRONA CAATI                      0,87X0,95X0,88               FX J/N                 4277     4607     -330  PIURB
+  17011    POLTRONA CAATI                      0,87X0,95X0,88               FX R                   4420     4702     -282  PIURB
+  17011    POLTRONA CAATI                      0,87X0,95X0,88               FX V                   4562     4892     -330  PIURB
+  17011    POLTRONA CAATI                      0,87X0,95X0,88               TECIDO_N               4277     4607     -330  PIURB
+  17012    PUFF CAATI                          0,65X0,45X0,88               CR FZ                  2971     3089     -118  PIURB
+  17012    PUFF CAATI                          0,65X0,45X0,88               CR VQ                  2684     2802     -118  PIURB
+  17012    PUFF CAATI                          0,65X0,45X0,88               FX G                   2247     2378     -131  PIURB
+  17012    PUFF CAATI                          0,65X0,45X0,88               FX H                   2267     2398     -131  PIURB
+  17012    PUFF CAATI                          0,65X0,45X0,88               FX I                   2291     2422     -131  PIURB
+  17012    PUFF CAATI                          0,65X0,45X0,88               FX J/N                 2341     2484     -143  PIURB
+  17012    PUFF CAATI                          0,65X0,45X0,88               FX R                   2378     2509     -131  PIURB
+  17012    PUFF CAATI                          0,65X0,45X0,88               FX V                   2415     2558     -143  PIURB
+  17012    PUFF CAATI                          0,65X0,45X0,88               TECIDO_N               2341     2484     -143  PIURB
+  17025    POLTRONA CACAU                                                   TECIDO_N               4884     5005     -121  PIURB
+  17025    POLTRONA CACAU                                                   TECIDO_R               5017     5103      -86  PIURB
+  17025    POLTRONA CACAU                                                   TECIDO_V               5206     5299      -93  PIURB
+  17025    POLTRONA CACAU                                                   TEC_FORNECIDO          4262     4221      +41  PIURB
+  17030    PUFF CACAU                                                       TECIDO_FORNECIDO       2654     2341     +313  PIURB
+  17030    PUFF CACAU                                                       TECIDO_N               2903     2629     +274  PIURB
+  17030    PUFF CACAU                                                       TECIDO_R               2957     2665     +292  PIURB
+  17030    PUFF CACAU                                                       TECIDO_V               3032     2737     +295  PIURB
+  17034    CAMA AFRODITE                       2,10X2,28X1,20 (ESPECIAL)    TECIDO_E              27781     6413   +21368  PIU MOBILE
+  17049    POLTRONA CAJU                       135X79X66H                   FORNECIDO              3777     4165     -388  PIURB
+  17052    CAMA CRIO                           240X238X72H                  FORNECIDO              8187     7862     +325  PIURB
+  17057    POLTRONA TAPIOCA                    120X85X71H                   FORNECIDO              3604     3961     -357  PIURB
+  17067    POLTRONA TULIPA                                                  G                      2606     2307     +299  PIU MOBILE
+  17070    PUFF MESA XIQUE-XIQUE                                            FX A                   4267     3586     +681  PIU MOBILE
+  17070    PUFF MESA XIQUE-XIQUE                                            FX B                   4313     3632     +681  PIU MOBILE
+  17070    PUFF MESA XIQUE-XIQUE                                            FX C                   4359     3678     +681  PIU MOBILE
+  17070    PUFF MESA XIQUE-XIQUE                                            FX D                   4424     3743     +681  PIU MOBILE
+  17070    PUFF MESA XIQUE-XIQUE                                            FX E                   4470     3789     +681  PIU MOBILE
+  17070    PUFF MESA XIQUE-XIQUE                                            FX F                   4544     3863     +681  PIU MOBILE
+  17070    PUFF MESA XIQUE-XIQUE                                            FX FORNECIDO           3422     3447      -25  PIU MOBILE
+  17070    PUFF MESA XIQUE-XIQUE                                            FX G                   4609     3928     +681  PIU MOBILE
+  17070    PUFF MESA XIQUE-XIQUE                                            FX H                   4683     4001     +682  PIU MOBILE
+  17070    PUFF MESA XIQUE-XIQUE                                            FX I                   4775     4094     +681  PIU MOBILE
+  17070    PUFF MESA XIQUE-XIQUE                                            FX J/N                 5006     4325     +681  PIU MOBILE
+  17070    PUFF MESA XIQUE-XIQUE                                            FX KNIT                6161     5480     +681  PIU MOBILE
+  17070    PUFF MESA XIQUE-XIQUE                                            FX R                   5098     4417     +681  PIU MOBILE
+  17070    PUFF MESA XIQUE-XIQUE                                            FX V                   5283     4602     +681  PIU MOBILE
+  17071    SOFA MESC SB AV                     190X100X090                  FX FORNECIDO             21     4947    -4926  PIU MOBILE
+  17071    SOFA MESC SB AV                     240X100X090                  FX FORNECIDO             25     5525    -5499  PIU MOBILE
+  17071    SOFA MESC SB AV                     290X100X090                  FX FORNECIDO             32     6270    -6237  PIU MOBILE
+  17072    CHAISE MESC CSB AV                                               FX A                   5791     5588     +203  PIU MOBILE
+  17072    CHAISE MESC CSB AV                                               FX B                   5858     5655     +203  PIU MOBILE
+  17072    CHAISE MESC CSB AV                                               FX C                   5925     5722     +203  PIU MOBILE
+  17072    CHAISE MESC CSB AV                                               FX D                   6018     5815     +203  PIU MOBILE
+  17072    CHAISE MESC CSB AV                                               FX E                   6085     5882     +203  PIU MOBILE
+  17072    CHAISE MESC CSB AV                                               FX F                   6192     5989     +203  PIU MOBILE
+  17072    CHAISE MESC CSB AV                                               FX FORNECIDO           4720     5388     -668  PIU MOBILE
+  17072    CHAISE MESC CSB AV                                               FX G                   6285     6082     +203  PIU MOBILE
+  17072    CHAISE MESC CSB AV                                               FX H                   6392     6189     +203  PIU MOBILE
+  17072    CHAISE MESC CSB AV                                               FX I                   6525     6322     +203  PIU MOBILE
+  17072    CHAISE MESC CSB AV                                               FX J/N                 6859     6656     +203  PIU MOBILE
+  17072    CHAISE MESC CSB AV                                               FX KNIT                8526     8323     +203  PIU MOBILE
+  17072    CHAISE MESC CSB AV                                               FX R                   6992     6789     +203  PIU MOBILE
+  17072    CHAISE MESC CSB AV                                               FX V                   7259     7056     +203  PIU MOBILE
+  17073    POLTRONA SINHO                                                   FX FORNECIDO             12     4146    -4133  PIU MOBILE
+  17074    PUFF SINHO                                                       FX FORNECIDO              8     2255    -2246  PIU MOBILE
+  17075    SOFA CAPADOCIA 2B                   200X103X087                  FX FORNECIDO             58     5113    -5054  PIU MOBILE
+  17075    SOFA CAPADOCIA 2B                   220X103X087                  FX FORNECIDO             60     5319    -5258  PIU MOBILE
+  17075    SOFA CAPADOCIA 2B                   240X103X087                  FX FORNECIDO             66     5615    -5548  PIU MOBILE
+  17075    SOFA CAPADOCIA 2B                   260X103X087                  FX FORNECIDO             70     5941    -5870  PIU MOBILE
+  17075    SOFA CAPADOCIA 2B                   280X103X087                  FX FORNECIDO             74     6227    -6152  PIU MOBILE
+  17075    SOFA CAPADOCIA 2B                   300X103X087                  FX FORNECIDO             78     6480    -6401  PIU MOBILE
+  17076    CHAISE MESC CSB AP                                               FX A                   5760     5588     +172  PIU MOBILE
+  17076    CHAISE MESC CSB AP                                               FX B                   5826     5655     +171  PIU MOBILE
+  17076    CHAISE MESC CSB AP                                               FX C                   5893     5722     +171  PIU MOBILE
+  17076    CHAISE MESC CSB AP                                               FX D                   5986     5815     +171  PIU MOBILE
+  17076    CHAISE MESC CSB AP                                               FX E                   6053     5882     +171  PIU MOBILE
+  17076    CHAISE MESC CSB AP                                               FX F                   6160     5989     +171  PIU MOBILE
+  17076    CHAISE MESC CSB AP                                               FX FORNECIDO           4685     5388     -703  PIU MOBILE
+  17076    CHAISE MESC CSB AP                                               FX G                   6253     6082     +171  PIU MOBILE
+  17076    CHAISE MESC CSB AP                                               FX H                   6360     6189     +171  PIU MOBILE
+  17076    CHAISE MESC CSB AP                                               FX I                   6493     6322     +171  PIU MOBILE
+  17076    CHAISE MESC CSB AP                                               FX J/N                 6827     6656     +171  PIU MOBILE
+  17076    CHAISE MESC CSB AP                                               FX KNIT                8494     8323     +171  PIU MOBILE
+  17076    CHAISE MESC CSB AP                                               FX R                   6960     6789     +171  PIU MOBILE
+  17076    CHAISE MESC CSB AP                                               FX V                   7227     7056     +171  PIU MOBILE
+  17079    POLTRONA CARCARA                                                 FX FORNECIDO             11     3722    -3710  PIU MOBILE
+  17081    CAMA SAPUCAIA                                                    FX G                   4850     4567     +283  PIU MOBILE
+  17084    SOFA MARAA CTO                                                   FX FORN RB             4317     5232     -915  PIURB
+  17085    PUFF MARAA                                                       FX FORN RB             4291     5204     -913  PIURB
+  17092    SOFA MURRAY 2B 2AS                  210X095X085                  FORNECIDO                50     5073    -5022  PIU MOBILE
+  17092    SOFA MURRAY 2B 2AS                  230X095X085                  FORNECIDO                53     5294    -5240  PIU MOBILE
+  17092    SOFA MURRAY 2B 2AS                  250X095X085                  FORNECIDO                56     5516    -5460  PIU MOBILE
+  17092    SOFA MURRAY 2B 2AS                  270X095X085                  FORNECIDO                58     5699    -5640  PIU MOBILE
+  17092    SOFA MURRAY 2B 2AS                  290X095X085                  FORNECIDO                61     5952    -5890  PIU MOBILE
+  17093    SOFA MEPPEL 2B                      200X102X085                  FX FORNECIDO             81     4703    -4622  PIU MOBILE
+  17093    SOFA MEPPEL 2B                      220X102X085                  FX FORNECIDO             84     4919    -4835  PIU MOBILE
+  17093    SOFA MEPPEL 2B                      240X102X085                  FX FORNECIDO             86     5136    -5049  PIU MOBILE
+  17093    SOFA MEPPEL 2B                      260X102X085                  FX FORNECIDO             89     5478    -5388  PIU MOBILE
+  17093    SOFA MEPPEL 2B                      280X102X085                  FX FORNECIDO             92     5731    -5638  PIU MOBILE
+  17093    SOFA MEPPEL 2B                      300X102X085                  FX FORNECIDO             95     5948    -5852  PIU MOBILE
+  17094    SOFA CAMA PALERMO                                                FX FORNECIDO             33     4485    -4451  PIU MOBILE
+  17095    SOFA MESC SB 1AS                    150X100X090                  FX FORNECIDO             19     4715    -4695  PIU MOBILE
+  17095    SOFA MESC SB 1AS                    200X100X090                  FX FORNECIDO             23     5284    -5260  PIU MOBILE
+  17095    SOFA MESC SB 1AS                    250X100X090                  FX FORNECIDO             30     5962    -5931  PIU MOBILE
+  17096    SOFA MESC SB AP 1AS                 150X133X090                  FX FORNECIDO             19     5016    -4996  PIU MOBILE
+  17096    SOFA MESC SB AP 1AS                 200X133X090                  FX FORNECIDO             23     5663    -5639  PIU MOBILE
+  17096    SOFA MESC SB AP 1AS                 250X133X090                  FX FORNECIDO             30     6164    -6133  PIU MOBILE
+  17181    CAMA SAPUCAIA                       0,98X2,22X0,78               FORNECIDO              4179     4021     +158  PIU MOBILE
+  17181    CAMA SAPUCAIA                       1,48X2,22X0,78               FORNECIDO              4639     4429     +210  PIU MOBILE
+  17181    CAMA SAPUCAIA                       1,68X2,32X0,78               FORNECIDO              4897     4657     +240  PIU MOBILE
+  17181    CAMA SAPUCAIA                       1,88X2,32X0,78               FORNECIDO              5145     4879     +266  PIU MOBILE
+  17181    CAMA SAPUCAIA                       2,03X2,37X0,78               FORNECIDO              5380     5092     +288  PIU MOBILE
+  17198    CAMA KIM                            0,93X2,08X1,05               FORNECIDO              4751     4662      +89  PIU MOBILE
+  17198    CAMA KIM                            1,43X2,08X1,05               FORNECIDO              5186     5097      +89  PIU MOBILE
+  17198    CAMA KIM                            1,63X2,18X1,05               FORNECIDO              5383     5283     +100  PIU MOBILE
+  17198    CAMA KIM                            1,83X2,18X1,05               FORNECIDO              5556     5445     +111  PIU MOBILE
+  17198    CAMA KIM                            1,98X2,23X1,05               FORNECIDO              5256     5571     -315  PIU MOBILE
+
+======================================================================
+SECTION 3: UNMATCHED GRADES OR DIMENSIONS (127 rules)
+(Name matched in mother table but grade/dim not found)
+======================================================================
+
+  17005: CHAISE REGIA
+    Matched to: ['REGIA CH 1,68X1,65', 'REGIA 1B 2,47 1AS/2ENC']
+    Missing grades: ['FORNECIDO RB']
+    Count: 1 unmatched rules
+
+  17011: POLTRONA CAATI
+    Matched to: ['CAATI POL 0,87X0,95', 'CAATI POL 0,87X0,95 CR VQ']
+    Missing grades: ['COURO FORN.', 'FORNECIDO RB']
+    Count: 2 unmatched rules
+
+  17012: PUFF CAATI
+    Matched to: ['CAATI PUFF 0,65X0,40', 'CAATI PUFF 0,65X0,40 CR VQ']
+    Missing grades: ['COURO FORN.', 'FORNECIDO RB']
+    Count: 2 unmatched rules
+
+  17025: POLTRONA CACAU
+    Matched to: ['CACAU POL 1,27X0,93', 'CACAU POL 1,27X0,93 (FIXA)']
+    Missing grades: ['TEC_FORNECIDO_V_8001']
+    Count: 1 unmatched rules
+
+  17029: CAMA CAIS
+    Matched to: ['CAIS CAMA 1,03X2,16 (COLCHAO 0,88X1,88)', 'CAIS CAMA 1,53X2,16 (COLCHAO 1,38X1,88)']
+    Missing grades: ['GRUPO A', 'GRUPO B', 'GRUPO C', 'GRUPO D', 'GRUPO E', 'GRUPO F', 'GRUPO G', 'GRUPO H', 'GRUPO I', 'GRUPO J']
+    Some dims not found: ['1,03X2,16X0,99', '1,53X2,16X0,99', '1,73X2,16X0,99', '1,93X2,16X0,99', '2,08X2,31X0,99']
+    Count: 50 unmatched rules
+
+  17057: POLTRONA TAPIOCA
+    Matched to: ['TAPIOCA POL 1,20X0,85 (FIXA)', 'TAPIOCA POL 1,20X0,85 (GIRATORIA)']
+    Missing grades: ['COURO FORN.']
+    Count: 1 unmatched rules
+
+  17066: CRIO CAMA
+    Matched to: ['CRIO CAMA C/ABA 1,50X2,28 (COLCHAO 0,88X1,88)', 'CRIO CAMA C/ABA 2,00X2,28 (COLCHAO 1,38X1,88)']
+    Missing grades: ['COURO FORN.']
+    Count: 5 unmatched rules
+
+  17077: CHAISE MESC CSB
+    Matched to: ['MESC CSB 1,50X1,66 2ENC', 'MESC CSB AP 0,33 - 1,50X1,99 2ENC']
+    Missing grades: ['FX J/N']
+    Some dims not found: ['130X166X090 (ESPECIAL)']
+    Count: 1 unmatched rules
+
+  17098: CAMA KIM
+    Matched to: ['KIM CAMA 0,93X2,08 (COLCHAO 0,88X1,88)', 'KIM CAMA 1,43X2,08 (COLCHAO 1,38X1,88)']
+    Missing grades: ['FX A', 'FX B', 'FX C', 'FX D', 'FX E', 'FX F', 'FX FORNECIDO', 'FX H', 'FX I', 'FX J/N', 'FX KNIT', 'FX R', 'FX V']
+    Some dims not found: ['193X218(COLCHAO_178X198)']
+    Count: 13 unmatched rules
+
+  17101: SOFA NAVE 2B 2ASS
+    Matched to: ['NAVE 2B 0,40 - 2,40X1,03 2AS', 'NAVE 2B 0,40 - 2,60X1,03 2AS']
+    Missing grades: ['COURO FORN.']
+    Count: 1 unmatched rules
+
+  17102: POLTRONA MANO
+    Matched to: ['MANO POL 1,35X0,90 (FIXA)', 'MANO POL 1,35X0,90 (FIXA)']
+    Missing grades: ['COURO FORN.']
+    Count: 1 unmatched rules
+
+  17104: BANCO CAPO
+    Matched to: ['CAPO BANCO 1,82X0,76', 'CAPO BANCO 1,92X0,76']
+    Missing grades: ['COURO FORN.']
+    Count: 4 unmatched rules
+
+  17149: POLTRONA CAJU
+    Matched to: ['CAJU POL 1,35X0,79']
+    Missing grades: ['COURO FORN.']
+    Count: 1 unmatched rules
+
+  17152: CAMA CRIO
+    Matched to: ['CRIO CAMA C/ABA 1,50X2,28 (COLCHAO 0,88X1,88)', 'CRIO CAMA C/ABA 2,00X2,28 (COLCHAO 1,38X1,88)']
+    Missing grades: ['COURO FORN.']
+    Count: 5 unmatched rules
+
+  17415: APOIO LA RUOTA AP CURVO
+    Matched to: ['LA RUOTA CURVO 1,80X1,35 2ENC', 'LA RUOTA CURVO 2,62X1,10 2ENC']
+    Missing grades: ['COURO FORN.']
+    Count: 4 unmatched rules
+
+  17416: APOIO LA RUOTA AP RETO
+    Matched to: ['LA RUOTA CURVO 1,80X1,35 2ENC', 'LA RUOTA CURVO 2,62X1,10 2ENC']
+    Missing grades: ['COURO FORN.']
+    Count: 4 unmatched rules
+
+  17417: APOIO LA RUOTA AV CURVO
+    Matched to: ['LA RUOTA CURVO 1,80X1,35 2ENC', 'LA RUOTA CURVO 2,62X1,10 2ENC']
+    Missing grades: ['COURO FORN.']
+    Count: 1 unmatched rules
+
+  17430: MESA LATERAL QUARTIERE
+    Matched to: ['QUARTIERE 1B 0,25 - 1,05X1,02 1ENC', 'QUARTIERE 1B 0,25 - 1,15X1,02 1ENC']
+    Missing grades: ['COURO FORN.']
+    Count: 3 unmatched rules
+
+  17444: SOFA BRAVO 1B
+    Matched to: ['BRAVO 1B 0,32 - 1,12X1,17 1AS', 'BRAVO 1B 0,32 - 1,22X1,17 1AS']
+    Missing grades: ['COURO FORN.']
+    Count: 5 unmatched rules
+
+  17445: SOFA BRAVO 1B AP
+    Matched to: ['BRAVO 1B 0,32 - 1,12X1,17 1AS', 'BRAVO 1B 0,32 - 1,22X1,17 1AS']
+    Missing grades: ['COURO FORN.']
+    Count: 5 unmatched rules
+
+  17446: SOFA BRAVO 1B AV
+    Matched to: ['BRAVO 1B 0,32 - 1,12X1,17 1AS', 'BRAVO 1B 0,32 - 1,22X1,17 1AS']
+    Missing grades: ['COURO FORN.']
+    Count: 2 unmatched rules
+
+  17447: SOFA BRAVO 2B
+    Matched to: ['BRAVO 2B 0,32 - 2,24X1,17 2AS', 'BRAVO 2B 0,32 - 2,44X1,17 2AS']
+    Missing grades: ['COURO FORN.']
+    Count: 5 unmatched rules
+
+  17451: SOFA BRAVO CSB AV
+    Matched to: ['BRAVO CSB AV 0,30 - 1,30X1,50 1AS', 'BRAVO CSB AV 0,30 - 1,40X1,50 1AS']
+    Missing grades: ['COURO FORN.']
+    Count: 3 unmatched rules
+
+  17452: SOFA BRAVO CSB AV C/MESA
+    Matched to: ['BRAVO CSB AV 0,30 - 1,30X1,50 1AS', 'BRAVO CSB AV 0,30 - 1,40X1,50 1AS']
+    Missing grades: ['COURO FORN.']
+    Count: 3 unmatched rules
+
+  17453: CHAISE BRAVO
+    Matched to: ['BRAVO CH 1,32X1,50 1AS', 'BRAVO CH 1,42X1,50 1AS']
+    Missing grades: ['COURO FORN.']
+    Count: 3 unmatched rules
+
+  17454: CANTO BRAVO
+    Matched to: ['BRAVO 1B 0,32 - 1,12X1,17 1AS', 'BRAVO 1B 0,32 - 1,22X1,17 1AS']
+    Missing grades: ['COURO FORN.']
+    Count: 1 unmatched rules
+
+======================================================================
+SUMMARY
+======================================================================
+  Total Focco items with price rules:  365
+  Skipped (already corrected):         0
+  Items with no name match:            44
+  Price discrepancies (|diff|>R$1):    120
+  Unmatched grade/dim rules:           127
+  Total absolute difference:           R$ 204,409
+  Largest discrepancy:                 17034 CAMA AFRODITE 2,10X2,28X1,20 (ESPECIAL) TECIDO_E -> R$ +21,369
